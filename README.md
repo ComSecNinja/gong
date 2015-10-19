@@ -11,9 +11,14 @@ Running the application starts a HTTP server in port 8080 serving the contents o
 + -root *path*
 
   Changes the root directory to serve
+  
++ -log *path*
+
+  Log events to a file
 
 ## Installation
 `go get github.com/ComSecNinja/gong`
+
 `go install github.com/ComSecNinja/gong`
 
 ## Add Windows context menu item
